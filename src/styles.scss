@@ -1,1 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: 'BQ';
+    src: url('./assets/HorseshoesAndLemonade.woff') format('woff2'), url('./assets/HorseshoesAndLemonade.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: black;
+}

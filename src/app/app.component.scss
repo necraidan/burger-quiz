@@ -1,0 +1,26 @@
+:host {
+    display: grid;
+
+    .scoreboard {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+        align-items: center;
+        height: 100vh;
+
+        .team {
+            display: grid;
+            font-family: BQ;
+            font-size: 85px;
+            justify-items: right;
+
+            .mayo {
+                color: yellow;
+            }
+
+            .ketchup {
+                color: red;
+            }
+        }
+    }
+}
