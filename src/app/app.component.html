@@ -1,20 +1,20 @@
 <div class="scoreboard" *ngIf="!isVideo">
-    <div class="team">
-        <img src="../assets/mayo.svg" />
-        <div class="mayo">{{ mayoCounter }} MIAMS</div>
-    </div>
-    <div class="team">
-        <img src="../assets/ketchup.svg" />
-        <div class="ketchup">{{ ketchupCounter }} MIAMS</div>
-    </div>
+  <div class="team">
+    <img src="assets/mayo.svg" />
+    <div class="mayo">{{ mayoCounter }} MIAMS</div>
+  </div>
+  <div class="team">
+    <img src="assets/ketchup.svg" />
+    <div class="ketchup">{{ ketchupCounter }} MIAMS</div>
+  </div>
 </div>
 <video
-    autoplay
-    *ngIf="isVideo"
-    style="
+  autoplay
+  *ngIf="isVideo"
+  style="
 height: 100vh;
 justify-self: center;
 "
 >
-    <source [src]="videoSrc" type="video/mp4" />
+  <source [src]="videoSrc" type="video/mp4" />
 </video>

@@ -60,31 +60,31 @@ export class AppComponent {
                 break;
             case KEY_CODE.GENERIQUE:
                 this.isVideo = true;
-                this.videoSrc = '/assets/videos/generique.mp4';
+                this.videoSrc = 'assets/videos/generique.mp4';
                 break;
             case KEY_CODE.NUGGETS:
                 this.isVideo = true;
-                this.videoSrc = '/assets/videos/nuggets.mp4';
+                this.videoSrc = 'assets/videos/nuggets.mp4';
                 break;
             case KEY_CODE.NUGGETS:
                 this.isVideo = true;
-                this.videoSrc = '/assets/videos/nuggets.mp4';
+                this.videoSrc = 'assets/videos/nuggets.mp4';
                 break;
             case KEY_CODE.MENUS:
                 this.isVideo = true;
-                this.videoSrc = '/assets/videos/menus.mp4';
+                this.videoSrc = 'assets/videos/menus.mp4';
                 break;
             case KEY_CODE.SEL_OU_POIVRE:
                 this.isVideo = true;
-                this.videoSrc = '/assets/videos/sel-ou-poivre.mp4';
+                this.videoSrc = 'assets/videos/sel-ou-poivre.mp4';
                 break;
             case KEY_CODE.ADDITION:
                 this.isVideo = true;
-                this.videoSrc = '/assets/videos/addition.mp4';
+                this.videoSrc = 'assets/videos/addition.mp4';
                 break;
             case KEY_CODE.BURGER_DE_LA_MORT:
                 this.isVideo = true;
-                this.videoSrc = '/assets/videos/burger-mort.mp4';
+                this.videoSrc = 'assets/videos/burger-mort.mp4';
                 break;
             case KEY_CODE.DISABLE_VIDEO:
                 this.isVideo = false;
