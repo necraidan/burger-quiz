@@ -24,3 +24,8 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 - é => -1 mayo
 - " => +1 ketchup
 - ' => -1 ketchu
+- Enter => Reset the view
+
+
+TODO: 
+- After the end of the video, go back to the scoreboard.
