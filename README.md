@@ -1,6 +1,7 @@
 # BurgerQuiz
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.6.
+Burger Quiz scoreboard with videos.
+Each commit on develop launch the build on travis-ci and deploy on master: https://necraidan.com/burger-quiz
 
 ## Development server
 
